@@ -1,0 +1,110 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #DFE0DF;
+    
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #145365;
+    height: 50px;
+    padding: 0 40px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 45px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #E07117;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+button {
+    background-color: #E07117;
+    color: #145;
+    width: 150px;
+    height: 36px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 0 0 3px 2px rgb(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all ease-in-out 0.4s;
+}
+
+button:hover {
+    color: #DFE0DF;
+    background-color: rgb(224,113,23, 0.7)
+}
+
+.icon1 {
+   color: #DFE0DF;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.info {
+    width: 40%;
+    margin-top: 140px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-top: 7px;
+}
+
+h3 {
+    color:#145365;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.there {
+    color: #E07117;
+}
+
+.button2 {
+    margin-top: 10px;
+}
+
+/*.hair-logo {
+    width: 500px;
+}*/
+
+img {
+    width: 500px;
+    margin-top: 0px;
+    margin-right: 200px;
+}
